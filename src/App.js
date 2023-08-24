@@ -1,8 +1,9 @@
+import Navbar from "./components/navBar/navbar";
 
 function App() {
   return (
     <div className="App">
-      This is my portfolio. Work is in progress...
+      <Navbar />
     </div>
   );
 }
