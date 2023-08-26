@@ -1,0 +1,50 @@
+.intro {
+    margin: 0 auto ;
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    display: flex; 
+     align-items: center;  
+    /* position: relative; */
+   justify-content: space-between; 
+}
+
+#introImage {
+    width: 500px;
+    height: 500px;
+}
+
+.introContent {
+    padding-left: 3rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.hireMe {
+    width: 5rem;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .intro{
+      flex-direction: column;
+    }
+    .introContent {
+       margin-left: 20px;
+    }
+    #introImage{
+        object-fit: cover;
+        margin-left: 40px;
+    
+    }
+  }
