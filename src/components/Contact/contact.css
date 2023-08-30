@@ -1,0 +1,81 @@
+.contact {
+    margin: 2rem auto ;
+    width: 100vw;
+    max-width: 60rem;
+    height: 40rem;
+}
+
+.contacts {
+    margin: 4rem auto;
+    /* height: 40rem; */
+    background: rgb(102, 97, 97);
+}
+
+.contact-title {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.contact-title::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 2rem;
+    background: #4b05e0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+.contact-details {
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+.name {
+    margin-bottom: 1rem;
+}
+
+.email {
+    margin-bottom: 1rem;
+}
+
+.text {
+    margin-bottom: 1rem;
+}
+
+input {
+
+    width:50%;
+    color: aliceblue;
+
+
+}
+.textArea, .inputName, .inputEmail {
+    width: 70%;
+    color: aliceblue;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    background: #2a2a2b;
+    border-radius: 0.5rem;
+    font-size: medium;
+
+}
+
+.submit-button {
+
+    text-align: center;
+}
+.button {
+    background: rgb(75, 88, 238);
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    width: 5rem;
+    font-size: medium;
+    cursor: pointer;
+}
