@@ -19,12 +19,12 @@ const Navbar = () => {
         </div>
         <div className="desktopMenu">
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
-            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-200} duration={500} className="desktopMenuListItem">About</Link>
+            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-250} duration={500} className="desktopMenuListItem">About</Link>
             <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Projects</Link>
             <Link activeClass='active' to='blog' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Blog</Link>
         </div>
         <button className="desktopMenuBtn" onClick={() => {
-            document.getElementById('contact').scrollIntoView({behavior: 'smooth', offset: 100});
+            document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
         }}>
             <img src= {contact} alt="" className="desktopMenuIcon" /> Contact Me
         </button>

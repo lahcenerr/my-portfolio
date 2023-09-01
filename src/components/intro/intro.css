@@ -39,18 +39,23 @@
 }
 
 .greeting{
-    margin-left: 40%;
+    /* margin-left: 40%; */
+    color:black;
+    font-size: 5rem;
+
 }
 
 .my-name{
     margin-left: 40%;
-
+    color:black;
+    font-size: 2rem;
 
 }
 
 .introduction{
     margin-left: 40%;
-
+    color:black;
+    font-size: 1.5rem;
 
 }
 

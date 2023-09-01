@@ -25,22 +25,24 @@
 
 .project-title {
     text-align: center;
-    font-size: medium;
+    font-size: 1.5rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:darkblue;
+    color:black;
     margin-bottom: 1rem;
 }
 .projects-details {
     display: flex;
     flex-wrap: wrap;
     margin-left: 2rem;
+    color:white;
     /* background: rgb(102, 97, 97); */
 }
 .project {
     /* background-color: rgb(147, 159, 164); */
     background: rgb(102, 97, 97);
-    height: 15rem;
-    width: 20rem;
+    height: auto;
+    min-height: 20rem;
+    width: 19rem;
     padding: 0.5rem 0.5rem;
     border-radius: 10px;
     margin-bottom: 1rem;
@@ -49,6 +51,15 @@
     /* border-color: red; */
     border-style: solid;
 }
+.project:hover {
+    /* top: -10px; */
+    /* box-shadow: 0 118px deeppink; */
+    /* width: 20rem;
+    height: calc(100%+1rem); */
+    transform: translateY(-1rem);
+
+
+  }
 
 .project-details {
     margin-top: 5rem;
