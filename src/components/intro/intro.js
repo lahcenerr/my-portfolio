@@ -12,7 +12,7 @@ const Intro = () => {
   return (
     <section className="intro" id='intro'>
         <div className="introContent">
-            <h1 className='greeting'>Hello,</h1>
+            <h1 className='greeting'>Welcome,</h1>
             <h3 className='my-name'><i>My name is Lahcen Errich.</i></h3>
             <p className='introduction'>I am a full stack developer with experience in both front and back end. 
             </p> <br />
