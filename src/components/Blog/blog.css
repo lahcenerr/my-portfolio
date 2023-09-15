@@ -1,7 +1,7 @@
 .blog {
     margin: 0 auto ;
     width: 100vw;
-    max-width: 60rem;
+    max-width: 65rem;
 }
 
 .blog-title {
@@ -27,8 +27,18 @@
 
 .blogs {
     text-align: center;
-    background: rgb(102, 97, 97);
+    /* background: rgb(102, 97, 97); */
     height: 20rem;
     padding-top: 10rem;
 
+}
+
+#light .blog {
+    background: rgb(231, 229, 229);
+
+}
+
+#dark .blog {
+    background: rgb(30, 30, 30);
+    color: white;
 }

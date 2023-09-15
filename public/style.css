@@ -7,8 +7,8 @@
 }
 
 body {
-    background: rgb(30, 30, 30);
-    color: white;
+    /* background: rgb(30, 30, 30);
+    color: white; */
     overflow-x: hidden;
     overflow-y: scroll;
     font-family: 'Source Sans Pro',sans-serif;
