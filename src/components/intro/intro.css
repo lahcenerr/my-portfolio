@@ -29,7 +29,7 @@
     display: flex; 
     flex-direction: column;
     justify-content: center; 
-    background: rgb(102, 97, 97);
+    /* background: rgb(102, 97, 97); */
     margin: 1.5rem ;
     padding: 3rem;
     height: calc(100vh - 15rem);
@@ -40,21 +40,21 @@
 
 .greeting{
     /* margin-left: 40%; */
-    color:black;
+    /* color:black; */
     font-size: 5rem;
 
 }
 
 .my-name{
     margin-left: 40%;
-    color:black;
+    /* color:black; */
     font-size: 2rem;
 
 }
 
 .introduction{
     margin-left: 40%;
-    color:black;
+    /* color:black; */
     font-size: 1.5rem;
 
 }
@@ -77,6 +77,9 @@
     .intro{
       flex-direction: column;
     }
+    .greeting {
+        font-size: 3rem;
+    }
     /* .introContent {
        margin-left: 20px;
     }
@@ -86,3 +89,13 @@
     
     } */
   }
+
+  #light .intro {
+    background: rgb(231, 229, 229);
+
+}
+
+#dark .intro {
+    background: rgb(30, 30, 30);
+    color: white;
+}

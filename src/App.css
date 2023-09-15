@@ -1,0 +1,47 @@
+.navbar-switch {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content:space-between;
+    
+}
+#light {
+    background-color: #fff;
+}
+
+#dark {
+    background-color: black;
+}
+
+.switch {
+    height: 1rem;
+    /* width: 100vw; */
+    margin-top: 1rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    font-size: x-small;
+}
+
+#dark .switch label {
+    color: #fff;
+}
+
+
+.switch label {
+    margin: 10px;
+  }
+
+@media screen and (max-width: 720px) {
+    .navbar-switch {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .switch {
+        align-self: center;
+    }
+}
+

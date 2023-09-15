@@ -1,6 +1,7 @@
 .projects {
-    margin: 0 auto;
+    margin: 2rem auto;
     max-width: 65rem;
+    
 }
 .title {
     display: block;
@@ -27,19 +28,18 @@
     text-align: center;
     font-size: 1.5rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
+    /* color:black; */
     margin-bottom: 1rem;
 }
 .projects-details {
     display: flex;
     flex-wrap: wrap;
     margin-left: 2rem;
-    color:white;
+    /* color:white; */
     /* background: rgb(102, 97, 97); */
 }
 .project {
     /* background-color: rgb(147, 159, 164); */
-    background: rgb(102, 97, 97);
     height: auto;
     min-height: 20rem;
     width: 19rem;
@@ -65,4 +65,23 @@
     margin-top: 5rem;
     
 
+}
+
+#light .projects {
+    background: rgb(231, 229, 229);
+
+}
+
+#dark .projects {
+    background: rgb(30, 30, 30);
+    color: white;
+}
+
+#light .projects .project{
+    background: rgb(200, 200, 100);
+
+}
+
+#dark .projects .project{
+    background: rgb(102, 97, 97);
 }

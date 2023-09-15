@@ -11,7 +11,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
   return (
     <nav className="navbar">
-        <div>
+        <div className='logo-img'>
           <img src={logo} alt="logo" className='logo' onClick={() => {
               document.getElementById('intro').scrollIntoView({behavior: 'smooth', alignToTop:false});
           }} />
