@@ -42,3 +42,7 @@
     background: rgb(30, 30, 30);
     color: white;
 }
+
+#dark .tab {
+    color: rgb(231, 229, 229);
+}
